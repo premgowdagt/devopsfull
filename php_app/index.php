@@ -1,7 +1,8 @@
 <?php
-            $conn = new mysqli("db", "root", "example", "mydb");
-            if ($conn->connect_error) {
-                die("Connection failed: " . $conn->connect_error);
-            }
-            echo "Connected successfully to MySQL!";
-        ?>
+// Remove the database connection code
+
+// Add some text to display
+echo "<h1>Welcome to My PHP Application</h1>";
+echo "<p>This is a simple PHP application without database connection.</p>";
+?>
+
